@@ -1,0 +1,10 @@
+version : v1
+kind : pods
+metadata :
+  name : nginx
+  namespace: nginx
+spec:
+  - name : nginx
+    version : nginx:1.14.2
+    ports:
+    - containerPort: 80
