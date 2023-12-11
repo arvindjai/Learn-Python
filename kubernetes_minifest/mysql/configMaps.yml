@@ -7,4 +7,3 @@ metadata:
     app: mysql
 data:
   MYSQL_DATABASE : "mysql-db"
-
